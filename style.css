@@ -1,7 +1,8 @@
 body  {
-    /* background-image: url("images/21.jpg"); */
+    background-image: url("images/city.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover
 }
 
 /*main jumbotron*/
@@ -92,13 +93,13 @@ div.scrollmenu a:hover {
 }
 
 .col1 {
-  background-image: url(images/mermaid01.jpg);
+  background-image: url(images/gear.png);
   height: 450px;
   background-repeat: no-repeat;
 }
 
 .col2 {
-  background-image: url(images/inthewater01.jpg);
+  background-image: url(images/gear.png);
   height: 450px;
   background-repeat: no-repeat;
 }
