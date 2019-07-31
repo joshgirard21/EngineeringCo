@@ -42,7 +42,7 @@ body  {
 }
 .long-jumbotron{
   width:100%;
-  height: 3000px;
+  height: 100%;
   background-color: #000F35;
   background-image: none;
   padding:100px;
@@ -142,7 +142,7 @@ div.scrollmenu a:hover {
   transition: .5s ease;
   background-color: #000F35;
   text-align: center;
-  line-height: 450px;
+  line-height: 200px;
 }
 
 .col-md-4:hover .overlay {
@@ -152,6 +152,9 @@ div.scrollmenu a:hover {
 .box-shadow {
   border-width: 0px;
   border-color: #000F35
+}
+.container-description:hover .overlay {
+  opacity: .85;
 }
 
 /*footer links*/
