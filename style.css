@@ -33,13 +33,20 @@ body  {
 /* map jumbotron */
 .map-jumbotron{
   width:100%;
-  height: 930px;
+  height: 630px;
   background-color: #000F35;
   background-image: none;
   padding:10px;
   margin:0px;
   text-align: center;
 }
+
+.graphic-container {
+  padding:10px;
+  height: 100%;
+  width:  100%;
+}
+
 .long-jumbotron{
   width:100%;
   height: 100%;
@@ -121,12 +128,14 @@ div.scrollmenu a:hover {
 
 .triplet-container {
   margin-top: 0px;
+  height: 60%;
+  width: 90%;
 }
 
 .triplet-jumbotron {
   background-color: #000F35;
   background-image: none;
-  height: 570px
+  height: 40%;
 }
 
 /*fade effect*/
@@ -149,11 +158,20 @@ div.scrollmenu a:hover {
   opacity: .85;
 }
 
+.overlay-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .box-shadow {
   border-width: 0px;
   border-color: #000F35
 }
 .container-description:hover .overlay {
+  opacity: .85;
+}
+
+.img-fluid:hover .overlay {
   opacity: .85;
 }
 
