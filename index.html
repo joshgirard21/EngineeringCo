@@ -1,37 +1,11 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <script src="scripts/model3d.js"></script> <!-- loading the script for the 3d model -->
     <title>GR Prototyping</title>
-  </head>
-  <body>
-    <h1>GR Prototyping</h1>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Boot strap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  </body>
-</html>
-
-
-<html lang="en">
-  <head>
-
-
-    <link rel="icon" href="images/gear.png">
-
-    <link rel='shortcut icon'    href='images/gear.png' />
-    <link rel='apple-touch-icon' href='images/gear.png' />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <title>GR Prototyping</title>
-
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -49,196 +23,232 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- Favicon -->
-    <link rel='shortcut icon'    href='images/gear.png' />
-    <link rel='apple-touch-icon' href='images/gear.png' />
-  </head>
+    <link rel='shortcut icon' href='images/gear.png'/>
+    <link rel='apple-touch-icon' href='images/gear.png'/>
+</head>
 
-  <body>
+<body>
+<h1>GR Prototyping</h1>
 
-    <!-- #################### START NAVBAR ################## -->
-    <nav class="navbar navbar-inverse navbar-expand-md navbar-dark fixed-top ">
-      <a class="navbar-brand" href="#">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Boot strap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+<!-- #################### START NAVBAR ################## -->
+<nav class="navbar navbar-inverse navbar-expand-md navbar-dark fixed-top ">
+    <a class="navbar-brand" href="#">
         <img src="images/gear.png" width="40" height="40" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gallery</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="portfolio.html">Previous Projects</a>
-              <a class="dropdown-item" href="portfolio.html">Our Workspace</a>
-              <a class="dropdown-item" href="portfolio.html">About Us</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Gallery</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="portfolio.html">Previous Projects</a>
+                    <a class="dropdown-item" href="portfolio.html">Our Workspace</a>
+                    <a class="dropdown-item" href="portfolio.html">About Us</a>
 
-            </div>
-          </li>
+                </div>
+            </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="">Shop In-Stock Products</a>
-              <a class="dropdown-item" href="">Made to Order</a>
-              <a class="dropdown-item" href="">Custom Projects</a>
-            </div>
-          </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Products</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="">Shop In-Stock Products</a>
+                    <a class="dropdown-item" href="">Made to Order</a>
+                    <a class="dropdown-item" href="">Custom Projects</a>
+                </div>
+            </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Printing</a>
-              <a class="dropdown-item" href="#">CAD/Design Work</a>
-              <a class="dropdown-item" href="#">Analysis</a>
-              <a class="dropdown-item" href="#">Software Design</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Services</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Printing</a>
+                    <a class="dropdown-item" href="#">CAD/Design Work</a>
+                    <a class="dropdown-item" href="#">Analysis</a>
+                    <a class="dropdown-item" href="#">Software Design</a>
 
-            </div>
-          </li>
+                </div>
+            </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact Us</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="http://www.ucl.ac.uk/news/news-articles/0606/06062701">UCL Homepage</a>
-              <a class="dropdown-item" href="http://www.economist.com/node/10640660">The Economist</a>
-              <a class="dropdown-item" href="https://www.princeton.edu/news/2008/01/28/geoscientist-simons-earths-deepest-secrets-may-come-sea">PU Homepage</a>
-              <a class="dropdown-item" href="http://www.nature.com/news/global-seismic-network-takes-to-the-seas-1.14855">Nature</a>
-              <a class="dropdown-item" href="http://www.fondriest.com/news/son-o-mermaid-holds-promise-tracking-oceanic-earthquakes.htm">Environmental Monitor</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="http://www.ucl.ac.uk/news/news-articles/0606/06062701">UCL
+                        Homepage</a>
+                    <a class="dropdown-item" href="http://www.economist.com/node/10640660">The Economist</a>
+                    <a class="dropdown-item"
+                       href="https://www.princeton.edu/news/2008/01/28/geoscientist-simons-earths-deepest-secrets-may-come-sea">PU
+                        Homepage</a>
+                    <a class="dropdown-item"
+                       href="http://www.nature.com/news/global-seismic-network-takes-to-the-seas-1.14855">Nature</a>
+                    <a class="dropdown-item"
+                       href="http://www.fondriest.com/news/son-o-mermaid-holds-promise-tracking-oceanic-earthquakes.htm">Environmental
+                        Monitor</a>
 
-            </div>
-          </li>
+                </div>
+            </li>
 
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- #################### END NAVBAR ################## -->
+<!-- #################### END NAVBAR ################## -->
 
+<main role="main">
 
+    <!-- START Main jumbotron for a primary homepage -->
+    <div class="jumbotron">
 
+        <h1 class="display-3"><b>GR <br/><i>Prototyping</i> </b></h1>
+        <p><a class="btn btn-secondary btn-lg" role="button">3D Printing Service &raquo;</a></p>
 
+    </div>
+    <!-- END Main jumbotron for a primary homepage -->
 
-    <main role="main">
-
-      <!-- START Main jumbotron for a primary homepage -->
-      <div class="jumbotron">
-
-          <h1 class="display-3"> <b>GR <br/><i>Prototyping</i> </b></h1>
-          <p><a class="btn btn-secondary btn-lg" role="button">3D Printing Service &raquo;</a></p>
-
-      </div>
-      <!-- END Main jumbotron for a primary homepage -->
-
-      <div class="container">
+    <div class="container">
         <!-- Example row of columns -->
         <div class="row about-earthscope">
-            <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start. </p>
+            <p>The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult
+                as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running
+                speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should
+                be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long
+                as possible. The second time you fail to complete a lap before the sound, your test is over. The test
+                will begin on the word start. On your mark, get ready, start. </p>
         </div>
 
 
-      </div> <!-- /container -->
+    </div> <!-- /container -->
 
+    <!-- START jumbotron for graphic-->
 
-
-      <!-- START jumbotron for graphic-->
-
-      <div class="jumbotron map-jumbotron">
+    <div class="jumbotron map-jumbotron">
         <div class="container graphic-container">
-          <model-3d background-color="#000F35" src="models/GR Logo v2.glb"></model-3d> <!-- this is where the 3d model is displayed!!!-->
+            <model-3d background-color="#000F35" src="models/GR Logo v2.glb"></model-3d>
+            <!-- this is where the 3d model is displayed!!!-->
         </div>
-      </div>
+    </div>
 
-      <!-- END jumbotron for map-->
+    <!-- END jumbotron for map-->
 
-      <div class="container">
+    <div class="container">
         <!-- Text row -->
         <div class="row about-earthscope">
-            <p>What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo. </p>
+            <p>What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of
+                my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have
+                over 300 confirmed kills. I am trained in gorilla warfare and I'm the top sniper in the entire US armed
+                forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the
+                likes of which has never been seen before on this Earth, mark my fucking words. You think you can get
+                away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my
+                secret network of spies across the USA and your IP is being traced right now so you better prepare for
+                the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You're fucking
+                dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just
+                with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire
+                arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable
+                ass off the face of the continent, you little shit. If only you could have known what unholy retribution
+                your little "clever" comment was about to bring down upon you, maybe you would have held your fucking
+                tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit
+                fury all over you and you will drown in it. You're fucking dead, kiddo. </p>
         </div>
 
         <hr>
 
-      </div> <!-- /container -->
+    </div> <!-- /container -->
 
-
-      <!-- ########## START IMAGE TRIPLET JUMBOTRON ##########-->
-      <div class="jumbotron triplet-jumbotron">
+    <!-- ########## START IMAGE TRIPLET JUMBOTRON ##########-->
+    <div class="jumbotron triplet-jumbotron">
 
         <div class="container triplet-container">
-          <div class="row">
+            <div class="row">
 
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/gear.png" alt="Card image cap">
-                <div class="overlay">
-                  <div class="text">Featured Products</div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/gear.png" alt="Card image cap">
+                        <div class="overlay">
+                            <div class="text">Featured Products</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/ourPrinter.jpg" alt="Card image cap">
-                <div class="overlay">
-                  <div class="text">Instrumentation</div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/ourPrinter.jpg" alt="Card image cap">
+                        <div class="overlay">
+                            <div class="text">Instrumentation</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
 
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="images/science.jpg" alt="Card image cap">
-                <div class="overlay">
-                  <div class="text">Science</div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="images/science.jpg" alt="Card image cap">
+                        <div class="overlay">
+                            <div class="text">Science</div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
 
-          </div>
-          <hr>
+            </div>
+            <hr>
         </div> <!-- /container -->
-      </div>
-
-      <!-- ########## END IMAGE TRIPLET JUMBOTRON ##########-->
-
-
-
-      <!-- ########## BEGIN LOGO JUMBOTRON ##########-->
-
-        <nav class="navbar navbar-light bg-white">
-          <a class="navbar-brand" href="#">
-            <img src="" width="130" height="90" alt="">
-          </a>
-          <a class="navbar-brand" href="#">
-            <img src="images/esologo.png" width="130" height="90" alt="">
-          </a>
-          <a class="navbar-brand" href="#">
-            <img src="" width="130" height="90" alt="">
-          </a>
-        </nav>
-
-      <!-- ########## END LOGO JUMBOTRON ##########-->
-
-
-
-    </main>
-
-    <div class="jumbotron copyright-jumbotron">
-      <footer class="container copyright">
-        <p>Copyright 	&#169; 2019 Joshua Girard | Jonah Rubin </p>
-      </footer>
     </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-  </body>
+    <!-- ########## END IMAGE TRIPLET JUMBOTRON ##########-->
+
+    <!-- ########## BEGIN LOGO JUMBOTRON ##########-->
+
+    <nav class="navbar navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+            <img src="" width="130" height="90" alt="">
+        </a>
+        <a class="navbar-brand" href="#">
+            <img src="images/esologo.png" width="130" height="90" alt="">
+        </a>
+        <a class="navbar-brand" href="#">
+            <img src="" width="130" height="90" alt="">
+        </a>
+    </nav>
+
+    <!-- ########## END LOGO JUMBOTRON ##########-->
+
+</main>
+
+<div class="jumbotron copyright-jumbotron">
+    <footer class="container copyright">
+        <p>Copyright &#169; 2019 Joshua Girard | Jonah Rubin </p>
+    </footer>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+</body>
 </html>
